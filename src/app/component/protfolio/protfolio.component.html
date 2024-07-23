@@ -1,0 +1,105 @@
+<div class="bg-home  mt-5 py-5">
+    <div class="container ">
+        <div class="row mt-md-5 gy-3">
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100  rounded-3 z-2 item-img" [src]="imag1" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex  align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star  ms-5  ps-5  fa-solid fa-plus fa-6x"></i>
+                            </div>
+
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100 rounded-3 z-2 item-img" [src]="imag2" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star ms-5 ps-5 fa-solid fa-plus fa-6x"></i>
+                            </div>
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100 rounded-3 z-2 item-img" [src]="imag3" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star ms-5 ps-5 fa-solid fa-plus fa-6x"></i>
+                            </div>
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag3" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100 rounded-3 z-2 item-img" [src]="imag1" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star ms-5 ps-5 fa-solid fa-plus fa-6x"></i>
+                            </div>
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag1" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100 rounded-3 z-2 item-img" [src]="imag2" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star ms-5 ps-5 fa-solid fa-plus fa-6x"></i>
+                            </div>
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag2" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cardy ">
+                    <div class="card-bodyy position-relative overflow-hidden ">
+                        <img class="w-100 rounded-3 z-2 item-img" [src]="imag3" alt="">
+                        <div (click)="clickphoto($event)"
+                            class="position-absolute top-100 h-100  w-100 rounded-3 layerr d-flex align-items-center justify-content-center">
+                            <div class="d-flex align-items-center justify-content-center ms-5 ps-5 position-relative"><i
+                                    class="text-white position-absolute star ms-5 ps-5 fa-solid fa-plus fa-6x"></i>
+                            </div>
+                            <img class="w-100  opacity-0  rounded-3  item-img" [src]="imag3" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div (click)=" closephoto()" id="lightbox-conta" class="lightbox-conta  position-relative align-items-center justify-content-center  bg-dark bg-opacity-50 position-fixed top-0 start-0 end-0 bottom-0 test">
+    <div (click)="stoppro($event)"
+        class=" lightbox-item  rounded-3  position-absolute topp ">
+
+    </div>
+</div>

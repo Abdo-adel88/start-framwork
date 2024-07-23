@@ -1,0 +1,18 @@
+.wai-h
+{
+    width: 120px;
+    height: 7px;
+}
+.widput{
+    width: 60%;
+}
+.test{
+   display: none;
+}
+.test2{
+   display: block;
+   
+}
+.tran{
+    transition: 1s dis;
+}

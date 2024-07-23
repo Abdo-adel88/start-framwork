@@ -1,0 +1,50 @@
+.layerr {
+    background-color: #1abc9ce6;
+
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.card-bodyy:hover .layerr {
+
+    top: 0% !important;
+}
+
+.card-bodyy {
+    cursor: pointer;
+}
+
+.lightbox-conta {
+    z-index: 6666666666666;
+
+}
+
+.lightbox-item {
+    width: 39% ;
+    height: 58% ;
+    background-image: url(../../../assets/image/poert1.png);
+    background-size: 600px !important;
+    background-repeat: no-repeat;
+
+}
+
+.w-box {
+    width: 40%;
+}
+
+.star {
+    left: 150%;
+}
+
+.topp {
+    top: 25%;
+    left: 30%;
+}
+
+.test {
+    display: none !important;
+}
+
+.test2 {
+    display: flex !important;
+}
